@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "lt5rGj0p6y4=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\arthu\\OneDrive\\Área de Trabalho\\DDD Milan\\Bookify\\Bookify\\Bookify.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\arthu\\.nuget\\packages\\microsoft.aspnetcore.openapi\\10.0.11\\microsoft.aspnetcore.openapi.10.0.11.nupkg.sha512",
+    "C:\\Users\\arthu\\.nuget\\packages\\microsoft.openapi\\2.7.5\\microsoft.openapi.2.7.5.nupkg.sha512",
+    "C:\\Users\\arthu\\.nuget\\packages\\system.text.json\\8.0.5\\system.text.json.8.0.5.nupkg.sha512"
+  ],
+  "logs": []
+}
