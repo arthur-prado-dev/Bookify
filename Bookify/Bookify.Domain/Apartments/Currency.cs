@@ -1,0 +1,25 @@
+﻿namespace Bookify.Domain.Apartments;
+
+public record Currency
+{
+    internal static Currency None => new("");
+    private static Currency Usd => new("USD");
+    private static Currency Eur => new("EUR");
+    
+    private Currency(string code) => Code = code;
+
+    private string Code { get; init; }
+
+    public static Currency FromCode(string code)
+    {
+        return All.FirstOrDefault(c => c.Code == code) ??
+               throw new ApplicationException($"Unknown currency code: {code}");
+    }
+
+    private static readonly IReadOnlyCollection<Currency> All =
+    [
+        Usd,
+        Eur,
+        None
+    ];
+}
